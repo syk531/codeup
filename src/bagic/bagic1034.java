@@ -2,10 +2,11 @@ package bagic;
 
 import java.util.Scanner;
 
-public class bagic1018 {
+public class bagic1034 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String a = sc.next();
-        System.out.printf(a);
+        String s = sc.next();
+        int o = Integer.parseInt(s, 8);
+        System.out.printf("%d", o);
     }
 }
