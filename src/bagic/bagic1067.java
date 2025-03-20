@@ -7,10 +7,6 @@ public class bagic1067 {
         /*
             정수 1개가 입력되었을 때, 음(minus)/양(plus)과 짝(even)/홀(odd)을 출력해보자.
 
-            입력된 정수에 대해
-            첫 줄에 minus 나 plus 를 출력하고,
-            두 번째 줄에 odd 나 even 을 출력한다.
-
 
             참고
             조건/선택 실행 구조의 안에 조건/선택 실행 구조를 다시 "중첩"할 수 있다.
@@ -49,23 +45,18 @@ public class bagic1067 {
             들여쓰기나 줄바꿈을 하지 않더라도 동일하게 컴파일된다.
 
 
+
          */
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
 
-        if(a % 2 == 0) {
-            System.out.println("even");
+        if(a >= 0 ) {
+            System.out.println("plus");
         } else {
-            System.out.println("odd");
+            System.out.println("minus");
         }
 
-        if(b % 2 == 0) {
-            System.out.println("even");
-        } else {
-            System.out.println("odd");
-        }
-
-        if(c % 2 == 0) {
+        if(a % 2 == 0 ) {
             System.out.println("even");
         } else {
             System.out.println("odd");
