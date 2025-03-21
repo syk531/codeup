@@ -44,33 +44,17 @@ public class bagic1071 {
 
          */
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
 
-        switch (a) {
-            case 12:
-            case 1:
-            case 2:
-                System.out.println("winter");
+
+        while(true) {
+            int a = sc.nextInt();
+
+            if( a == 0 ) {
                 break;
-
-            case 3:
-            case 4:
-            case 5:
-                System.out.println("spring");
-                break;
-
-            case 6:
-            case 7:
-            case 8:
-                System.out.println("summer");
-                break;
-
-            default:
-                System.out.println("fall");
-                break;
-
+            } else {
+                System.out.println(a);
+            }
         }
-
 
     }
 }
